@@ -1,0 +1,143 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&display=swap');
+@font-face {
+        font-family: "Ripster";
+        src: url(../fonts/Ripster-SoftShadow.woff2) format("woff2"), url(../fonts/Ripster-SoftShadow.woff) format("woff");
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+}
+body{
+    font-family: 'EB Garamond', serif;
+    color: rgb(133, 129, 129);;
+}
+.wrapper{
+    min-height: 100%;
+	overflow: hidden;
+    padding: 0 10px;
+}
+.name{
+text-align: center;
+font-size: 44px;
+margin: 15px 0 10px 0;
+text-shadow: 2px 1px 2px #000;
+}
+.remontly{
+    margin: 0 auto 5px auto;
+    font-size: 20px;
+    font-weight: 500;
+    width: 650px;
+    text-align: center;
+    text-decoration: underline;
+}
+.office{
+    margin: 0 0 5px auto;
+    font-size: 20px;
+    font-weight: 500;
+    width: 650px;
+    text-align: center;
+    text-decoration: underline;
+}
+.work{
+    font-size: 19px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 0 7px 0;
+    width: 650px;
+    text-decoration: underline;
+}
+.p-two{
+    width: 650px;
+    text-align: justify;
+    margin: 0 0 20px auto;
+    Border-radius: 15px;
+    border: 2px dashed rgba(141, 136, 136, 0.815);
+    padding: 5px;
+    font-style: italic;
+    max-height: 60px;
+    overflow: hidden;
+    background-color: rgb(231, 225, 225);
+}
+.p-three{
+    width: 650px;
+    max-height: 100px;
+    text-align: justify;
+    margin: auto 0 15px 0;
+    Border-radius: 15px;
+    outline: 2px solid rgba(141, 136, 136, 0.815);
+    padding: 5px;
+    overflow: scroll;
+    font-weight: 500;
+    background-color: rgb(241, 232, 232);
+}
+.photo-one{
+    margin: 0 auto 5px auto;
+    width: 650px;
+    display: block;
+    border-radius: 10px;
+}
+.photo-two{
+    width: 650px;
+    margin: 15px 0 5px auto;
+    display: block;
+    border-radius: 10px;
+}
+.photo-three{
+    width: 650px;
+    margin: 0 auto 5px 0;
+    display: block;
+    border-radius: 10px;
+}
+/* блок .текст в разработке */
+.text{
+    display: none; 
+    text-transform: capitalize;
+}
+.card{
+    border-radius: 15px;
+    border: 2px solid rgba(141, 136, 136, 0.815);
+    width: 650px;
+    text-align: justify;
+    margin:0 auto;
+    padding: 5px;
+    font-style: oblique;
+    background-color: rgb(233, 229, 229);
+}
+.link{
+    background-color: rgba(49, 48, 48, 0.815);
+    border-radius: 15px;
+    padding: 10px;
+    display: inline-block;
+    box-shadow: 5px 10px 10px 5px rgb(20, 20, 20);
+    margin: 0 0 10px 0;
+    
+}
+.link-one{
+    text-align: center;
+}
+.information{
+    font-family: "Ripster", serif;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 700;
+    width: 450px;
+    margin: 0 0 10px auto;
+}
+.link-two{
+    text-align: center;
+}
+/* тут кое что есть (opacity) */
+.link-hidden{
+    background-color: rgba(235, 94, 94, 0.815);
+    border-radius: 10px;
+    padding: 9px;
+    display: inline-block;
+    box-shadow: 5px 10px 10px 5px rgb(207, 28, 28);
+    margin: 0 0 10px 0;
+    opacity: 0;
+    color: aqua;
+    
+}
+#inline{
+    text-decoration: line-through;
+}
